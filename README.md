@@ -1,4 +1,6 @@
-# Project Init AWS EC2 Backed ECS
+# Project Init AWS Simple Network
+
+Module used to set up vpc and subnets to be used in a single AWS Account.
 
 ## Quick Start
 
@@ -50,5 +52,10 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_network_map"></a> [network\_map](#output\_network\_map) | n/a |
+| <a name="output_private_route_table_ids"></a> [private\_route\_table\_ids](#output\_private\_route\_table\_ids) | The route table ids of the private subnets. |
+| <a name="output_private_subnet_ids"></a> [private\_subnet\_ids](#output\_private\_subnet\_ids) | The ids of the private subnets. |
+| <a name="output_public_route_table_ids"></a> [public\_route\_table\_ids](#output\_public\_route\_table\_ids) | The route table ids of the public subnets. |
+| <a name="output_public_subnet_ids"></a> [public\_subnet\_ids](#output\_public\_subnet\_ids) | The ids of the public subnets. |
+| <a name="output_vpc_cidr_block"></a> [vpc\_cidr\_block](#output\_vpc\_cidr\_block) | The cidr block of the created VPC. |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The id of the created VPC. |
 <!-- END_TF_DOCS -->
