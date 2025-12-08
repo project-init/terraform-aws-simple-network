@@ -1,4 +1,4 @@
-module "subdomain" {
+module "network" {
   source = "project-init/simple-network/aws"
   # Project Init recommends pinning every module to a specific version
   # version = "vX.X.X"
