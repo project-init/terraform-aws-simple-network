@@ -21,7 +21,7 @@ module "vpc" {
 
 module "subnets" {
   source  = "cloudposse/dynamic-subnets/aws"
-  version = "3.0.1"
+  version = "3.1.1"
   context = module.label.context
 
   vpc_id                  = module.vpc.vpc_id
