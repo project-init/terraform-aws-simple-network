@@ -33,7 +33,7 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_label"></a> [label](#module\_label) | cloudposse/label/null | 0.25.0 |
-| <a name="module_subnets"></a> [subnets](#module\_subnets) | cloudposse/dynamic-subnets/aws | 3.0.1 |
+| <a name="module_subnets"></a> [subnets](#module\_subnets) | cloudposse/dynamic-subnets/aws | 3.1.1 |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | cloudposse/vpc/aws | 3.0.0 |
 
 ## Resources
